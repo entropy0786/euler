@@ -18,11 +18,16 @@ void main()
     std::cout << "pick a number to accrue all numbers below that are multiples of the input factors: ";
     std::cin >> numberBelow;
     std::cout << "calculating...";
-
-    auto totalSum = getSumOfFactors(factors, numberBelow);
-    std::cout << "done!\n";
-    std::cout << "the sum is: " << totalSum << "\n";
-
+    {
+        auto totalSum = getSumOfFactors(factors, numberBelow);
+        std::cout << "done!\n";
+        std::cout << "the sum is(slow): " << totalSum << "\n";
+    }
+    //{
+    //    auto totalSum = getSumOfFactors(factors, numberBelow);
+    //    std::cout << "done!\n";
+    //    std::cout << "the sum is(slow): " << totalSum << "\n";
+    //}
     std::cout << " \nPress any key to continue\n";
     std::cin.ignore();
     std::cin.get();

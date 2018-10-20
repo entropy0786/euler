@@ -2,10 +2,6 @@ if (ENABLE_PROB_001)
     add_subdirectory(problem001)
 endif()
 
-if (ENABLE_PROB_002)
-    add_subdirectory(problem002)
-endif()
-
-if (ENABLE_PROB_003)
-    add_subdirectory(problem003)
+if (ENABLE_PROB_004)
+    add_subdirectory(problem004)
 endif()

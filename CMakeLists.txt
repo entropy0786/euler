@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 project(projectEuler)
 
 set(ENABLE_PROB_001 TRUE  CACHE BOOL "Multiples of 3 and 5")
-set(ENABLE_PROB_002 FALSE CACHE BOOL "Even Fibonacci numbers")
+set(ENABLE_PROB_004 FALSE CACHE BOOL "Largest palindrome product")
 
 SET(CMAKE_MODULE_PATH "${CMAKE_CURRENT_PATH}/cmake")
 
